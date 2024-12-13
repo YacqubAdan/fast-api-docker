@@ -1,12 +1,11 @@
 # docker-fast-api
 
-This project demonstrates how to containerize a FastAPI application using Docker. FastAPI is a modern, fast (high-performance), web framework for building APIs with Python. It is part of the [YouTube Docker Crash Course on my channel](https://youtu.be/s7fnNNV-CM4).
+This project demonstrates how to containerize a FastAPI application using Docker. FastAPI is a modern, fast (high-performance), web framework for building APIs with Python.
 
 ## Features
 
 - FastAPI for building APIs
 - Docker for containerization
-- Simple and easy-to-understand project structure
 
 ## Requirements
 
@@ -16,12 +15,8 @@ This project demonstrates how to containerize a FastAPI application using Docker
 ## Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/rishabkumar7/docker-fast-api.git
-    cd docker-fast-api
-    ```
 
-2. Install dependencies:
+1. Install dependencies:
     ```sh
     pip install -r requirements.txt
     ```
@@ -52,8 +47,3 @@ docker build -t docker-fast-api .
 ``` sh
 docker run -d -p 80:80 docker-fast-api
 ```
-
-## Author
-
-- Twitter: [@rishabincloud](https://x.com/rishabincloud)
-- LinkedIn: [@rishabkumar7](https://linkedin.com/in/rishabkumar7)
